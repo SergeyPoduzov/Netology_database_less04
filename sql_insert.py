@@ -650,3 +650,25 @@ connection.execute("""INSERT  INTO СollectionRecord(id, collection_id, record_i
     VALUES(17, 8, 25);
     """)
 
+#Заполнем таблицу MusicianAlbum
+connection.execute("""INSERT  INTO MusicianAlbum(id, musician_id, album_id)
+    VALUES
+      (1, 1, 1),
+      (2, 1, 2),
+      (3, 2, 1),
+      (4, 2, 2), 
+      (5, 3, 5),
+      (6, 3, 6),
+      (7, 3, 7),
+      (8, 4, 8),
+      (9, 5, 9),
+      (10, 6, 10),
+      (11, 7, 3),
+      (12, 7, 4),
+      (13, 8, 3),
+      (14, 8, 4),
+      (15, 9, 11),
+      (16, 10, 12),
+      (17, 11, 13),
+      (18, 11, 14);
+    """)
